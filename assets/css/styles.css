@@ -1,23 +1,11 @@
 /* styles.css */
-/*.backgroundImage {
-	background-image: url(../img/concealer.png);
-	width: 435px;
-	height: 700px;
-	margin: 96px auto;
-	margin-right: 100px;
-}
-.backgroundImage:hover {
-	background-image: url(../img/bunny.png); 
-	width: 252px;
-	height: 200px;
-}*/
 .img_conceal {
-	/*background-image: url(../img/concealer.png);*/
 	float: right;
 	width: 35%;
 	bottom: 50%;
 	background-color: brown;
 }
+/*Positions the text and the concealer image */
 .pos_center {
 	position: absolute;
 	width: 70%;
@@ -26,11 +14,6 @@
 	background-color: black;
 	padding: 12px;
 }
-/*.img_conceal:hover {
-	background-image: url(../img/bunny.png);
-	float: right;
-	width: 20%; 
-}*/
 body {
 	background-color: rgb(122, 10, 10);
 	font-family: Arial, Helvetica, sans-serif;
@@ -38,6 +21,14 @@ body {
 .body {
 	font-family: Arial, Helvetica, sans-serif;
 }
+a {
+	color: rgb(255, 0, 0);
+	font-size: 20px;
+	font-family: "Cinzel", sans-serif;
+	font-style: bold;
+	left: 100px;
+}
+/* L'oreal Heading*/
 h1 {
 	color: rgb(0, 0, 0);
 	font-size: 65px;
@@ -50,6 +41,7 @@ h1 {
 	font-style: italic;
 	background-color: aliceblue;
 }
+/* Controls the hovering text (imperfection/cruelty part) */
 .text {
 	margin: 0px auto;
 	text-align: left;
@@ -61,7 +53,7 @@ h1 {
 	margin-top: 140px;
 	margin-bottom: -90px;
 	margin-left: 20px;
-	font-size: 35px;
+	font-size: 25px;
 	color: rgb(255, 4, 0);
 }
 .text * {
@@ -71,21 +63,23 @@ h1 {
 	padding: 0;
 	text-align: left auto;
 }
+/* Center text */
 div {
 	width: 50%;
 	margin: 9px auto;
 	margin-left: 20px;
 	margin-block: -90px;
-	margin-top: 140px;
+	margin-top: 135px;
 	text-align: left;
 	color: rgb(0, 0, 0);
-	font-size: 35px;
+	font-size: 25px;
 	font-family: "Cinzel", sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 600;
 	font-style: italic;
 	background-color: rgb(255, 255, 255);
 }
+/* Paris Subheading */
 p {
 	color: rgb(255, 255, 255);
 	font-size: 40px;
@@ -97,35 +91,4 @@ p {
 	font-weight: 600;
 	font-style: italic;
 	background-color: rgb(0, 0, 0);
-}
-h2 {
-	color: rgb(255, 255, 255);
-	font-size: 40px;
-	text-align: left auto; 
-	font-family: "Cinzel", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: 900;
-	font-style: italic;
-	margin-left: 0px;
-	margin-block: -100px;
-}
-/*h3 {
-	color: aliceblue;
-	font-size: 40px;
-	text-align: center; 
-	font-family: "Cinzel", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: 600;
-	font-style: italic; 
-}*/
-h3 a:link, 
-h3 a:visited {
-	color: blueviolet;
-	text-decoration: none;
-}
-h3 a:hover {
-	color: aliceblue;
-}
-* {
-	font-family: Arial;
 }

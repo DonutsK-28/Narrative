@@ -5,7 +5,7 @@ let targetElement = document.querySelector(".text");
 console.log(targetElement.outerHTML);
 targetElement.addEventListener("mouseover", function() {
     console.log(this.innerText); 
-    this.innerText = "CRUELTY";
+    this.innerText = "CRUELTY"; 
 }); 
 targetElement.addEventListener("mouseout", function() {
     this.innerText = "IMPERFECTIONS";
